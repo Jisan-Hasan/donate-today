@@ -1,5 +1,7 @@
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Manrope', sans-serif; */
 
 /* Remove browser default margin padding */
 * {
@@ -166,4 +168,28 @@ input:active {
 }
 #third-plan {
     background: #fff4d6;
+}
+
+/* Footer Section */
+footer {
+    height: 177px;
+    text-align: center;
+    background-color: #0b0d17;
+}
+footer h3 {
+    font-family: "Lobster", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #ff5959;
+    padding-top: 43px;
+    margin-bottom: 24px;
+}
+footer p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #d9dbe1;
 }
