@@ -52,12 +52,14 @@
 }
 
 /* Donate Section */
-.donate-section {
+.donate-section,
+.donate-plan {
     margin-top: 150px;
     text-align: center;
 }
 
-.donate-section h2 {
+.donate-section h2,
+.donate-plan h2 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 45px;
@@ -65,7 +67,8 @@
     color: #121212;
     margin-bottom: 20px;
 }
-.donate-section p {
+.donate-section p,
+.donate-plan > p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -86,9 +89,41 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 36.31px;
+    margin-bottom: 75px;
 }
 #special-button {
-    background-color: #FFEEEE;
+    background-color: #ffeeee;
     color: #ff5959;
     border: 2px solid #ff5959;
 }
+input {
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    width: 765px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #b3b3b3;
+    margin-bottom: 30px;
+}
+input:focus {
+    outline: none;
+}
+
+input:active {
+    border: none;
+}
+.donate-section a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 16px 12px;
+    background-color: #ff5959;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Our Donate Plan Section */
