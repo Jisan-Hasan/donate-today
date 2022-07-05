@@ -127,3 +127,43 @@ input:active {
 }
 
 /* Our Donate Plan Section */
+.plan-box {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: justify;
+}
+.plan-box div {
+    width: 360px;
+    height: 352px;
+    text-align: left;
+    padding-left: 23px;
+    padding-top: 63.5px;
+    margin-right: 24px;
+    border-radius: 5px;
+}
+.plan-box div h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+.plan-box div p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+#first-plan {
+    background: rgba(79, 157, 166, 0.1);
+}
+#second-plan {
+    background: rgba(255, 89, 89, 0.1);
+}
+#third-plan {
+    background: #fff4d6;
+}
